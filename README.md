@@ -1,4 +1,5 @@
 # 🔐 RaceLock JS
+![racelock](https://github.com/user-attachments/assets/db6dea12-e6b8-4ecd-a356-d59ffd9620e7)
 
 ## 🚀 A Powerful In-Memory Lock Utility for Node.js
 
