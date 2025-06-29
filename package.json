@@ -1,0 +1,13 @@
+{
+  "name": "global-lock-js",
+  "version": "1.0.0",
+  "description": "In-memory lock utility to prevent race conditions in JavaScript apps.",
+  "main": "src/index.js",
+  "keywords": ["lock", "race-condition", "global-lock", "mutex", "javascript"],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/global-lock-js.git"
+  }
+}

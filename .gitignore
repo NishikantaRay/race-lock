@@ -1,0 +1,29 @@
+# Node modules (always ignore)
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Build artifacts (if using a bundler later)
+dist/
+build/
+
+# Test coverage output (if testing is added)
+coverage/
+
+# Optional: Mac/Windows-specific cruft
+*.swp
