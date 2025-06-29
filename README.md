@@ -249,7 +249,7 @@ Forcibly releases a lock without checking for ownership. Use with extreme cautio
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](https://www.google.com/search?q=https://github.com/NishikantaRay/race-lock/blob/main/LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](https://github.com/NishikantaRay/race-lock/blob/main/LICENSE) file for details.
 
 © 2025 Your Name
 
