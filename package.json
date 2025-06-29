@@ -1,6 +1,6 @@
 {
   "name": "race-lock-js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "In-memory lock utility to prevent race conditions in JavaScript apps.",
   "main": "src/index.js",
   "keywords": ["lock", "race-condition", "global-lock", "mutex", "javascript"],
