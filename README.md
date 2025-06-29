@@ -29,15 +29,12 @@
 
 ## 📦 Installation
 
-For local or manual usage, you can directly integrate `RaceLock.js` into your project:
+To install RaceLock JS in your Node.js project, use npm:
 
 Bash
 
-```javascript
-# Clone the repository
-git clone https://github.com/yourusername/global-lock-js.git
-
-# Or simply copy the RaceLock.js file into your project directory.
+```
+npm install racelock
 ```
 
 ---
@@ -50,8 +47,8 @@ Acquire and release locks to protect critical sections of your code.
 
 JavaScript
 
-```javascript
-const RaceLock = require('./RaceLock'); // Adjust path as needed
+```
+const RaceLock = require('racelock'); // Installed via npm
 
 async function performCriticalTask() {
   const lockKey = 'job-123';
@@ -80,8 +77,8 @@ Use `retryStart()` for resilient lock acquisition in concurrent environments.
 
 JavaScript
 
-```javascript
-const RaceLock = require('./RaceLock');
+```
+const RaceLock = require('racelock'); // Installed via npm
 
 async function processInvoice(orderId) {
   const lockKey = `invoice:${orderId}`;
@@ -169,7 +166,7 @@ Retrieves detailed information about an active lock.
 
 JavaScript
 
-```javascript
+```
 {
   timestamp: 1650000000000, // Timestamp when the lock was acquired (Unix epoch in ms)
   meta: { job: 'invoice' },  // The metadata object provided during lock acquisition
@@ -192,7 +189,7 @@ Returns a Promise that resolves once the specified lock is released. This is use
 
 JavaScript
 
-```javascript
+```
 await RaceLock.waitForUnlock('task-key');
 console.log('Task-key lock has been released! Proceeding...');
 ```
@@ -252,7 +249,7 @@ Forcibly releases a lock without checking for ownership. Use with extreme cautio
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](https://www.google.com/search?q=https://github.com/NishikantaRay/race-lock/blob/main/LICENSE) file for details.
 
 © 2025 Your Name
 
